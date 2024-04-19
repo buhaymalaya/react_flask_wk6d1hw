@@ -10,7 +10,7 @@ class MovieModel(db.Model):
     id = db.Column(db.Integer, primary_key = True)
     title = db.Column(db.String, nullable = False)
     body = db.Column(db.String, nullable  = False)
-    year = db.Column(db.Integer, nullable = False)
+    # year = db.Column(db.Integer, nullable = False)
     timestamp = db.Column(db.DateTime, default = datetime.utcnow)
     director_id = db.Column(db.Integer, db.ForeignKey('director.id'), nullable=False)
 

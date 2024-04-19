@@ -4,7 +4,7 @@ class MovieSchema(Schema):
     movie_id = fields.Int(dump_only=True)
     title = fields.Str(required=True)
     body = fields.Str()
-    year = fields.Int(required=True)
+    # year = fields.Int(required=True)
     director_id = fields.Int(required=True)
 
 class DirectorSchema(Schema):
