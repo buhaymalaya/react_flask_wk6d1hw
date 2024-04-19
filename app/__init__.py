@@ -1,8 +1,7 @@
 from flask import Flask
 from flask_smorest import Api
 
-from flask_cors import CORS 
-# after installations pip etc
+from flask_cors import CORS
 
 from flask_sqlalchemy import SQLAlchemy
 from flask_migrate import Migrate 
